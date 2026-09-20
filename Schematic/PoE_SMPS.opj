@@ -1,0 +1,66 @@
+(ExpressProject "PoE_SMPS"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 S050 (4459063)  [7/18/2026]-[09/20/26]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\mylib.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\poe_smps.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (MPSSessionName "SNIPER")
+  (PartMRUSelector
+    (CONN_1x4P
+      (FullPartName "CONN_1x4P.Normal")
+      (LibraryName "Z:\MYMANJARO\HDISK\MYGITHUB\POE_SMPS\SCHEMATIC\MYLIB.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (POE30P-12L
+      (FullPartName "POE30P-12L.Normal")
+      (LibraryName "Z:\MYMANJARO\HDISK\MYGITHUB\POE_SMPS\SCHEMATIC\MYLIB.OLB")
+      (DeviceIndex "0"))
+    (MP8009AGV-Z
+      (FullPartName "MP8009AGV-Z.Normal")
+      (LibraryName "Z:\MYMANJARO\HDISK\MYGITHUB\POE_SMPS\SCHEMATIC\MYLIB.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "Z:\MyManjaro\HDisk\MyGithub\PoE_SMPS\Schematic")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "z:\mymanjaro\hdisk\mygithub\poe_smps\schematic\poe_smps.dsn")
+      (Path "Design Resources"
+         "z:\mymanjaro\hdisk\mygithub\poe_smps\schematic\poe_smps.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "z:\mymanjaro\hdisk\mygithub\poe_smps\schematic\mylib.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 563"))
+      (Tab 0))))
